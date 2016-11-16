@@ -1,7 +1,7 @@
 body{
 	background: url('images/content-background.png');
 	background-attachment: fixed;
-	color: white;
+	color: orange;
 	text-align: center;
 	background-color: #1E1E1E;
 	font-family: "Arial Black", Arial, Verdana, sans-serif;
@@ -10,7 +10,7 @@ body{
 /*Header*/
 header{
 	border-radius: 25px;
-	border: 2px solid lime;
+	border: 2px solid red;
 	background: url('images/header-banner.jpg');
 	width: 100%;
 	height: 120px;
@@ -19,32 +19,29 @@ header{
     align-items: center;
 }
 
-/*
 #banniere-header{
-	color: white;
+	color: orange;
 	background-color: black;
 	border-radius: 20px;
-	border: 2px solid lime;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	border: 2px solid red;
+	padding-top: 1px;
+	padding-bottom: 1px;
 	padding-left: 2px;
-	padding-right: 15px;
+	padding-right: 2px;
 }
-*/
 
 /*Menu Horizontal*/
 
-#menuhorizontal, #banniere-footer{
+#menuhorizontal{
 	background-color: black;
 	border-radius: 20px;
-	border: 2px solid lime;
+	border: 2px solid red;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-left: 2px;
 	padding-right: 2px;
 }
 
-/* Je sélectionne les <li> du menu horizontal */
 #menuhorizontal tr {
 display: inline;
 padding: 0 0.5em; /* Pour espacer les boutons entre eux */
@@ -56,7 +53,7 @@ padding: 0 0.5em; /* Pour espacer les boutons entre eux */
 }
 
 #menuhorizontal tr td a:link, #menuhorizontal tr td a:visited, #menuhorizontal tr td a:hover, #menuhorizontal tr td a:active{
-	color: white;
+	color: orange;
 }
 
 #menuhorizontal tr td a:hover, #menuhorizontal tr td a:active{
@@ -68,14 +65,14 @@ padding: 0 0.5em; /* Pour espacer les boutons entre eux */
 	display: default;
 }
 
-/*Body*/
 
+/*Body*/
 #menu1 li{
-	color: white;
+	color: orange;
 }
 
 .test p,.presentation p,#menu1,.yellow{	/*classe du div contenant les p testant celle-ci*/
-	color: yellow;
+	color: orange;
 }
 
 .yellow{
@@ -94,11 +91,6 @@ padding: 0 0.5em; /* Pour espacer les boutons entre eux */
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
-}
-
-#test2 { /*Id test2*/
-	color: red;
-	background-color: black;
 }
 
 #menu1{
@@ -124,11 +116,27 @@ ol li{
 .tabulation {
 text-indent: 20px;
 }
+
+/* Logithèque */
+#TableSoft, #TableSoft tr, #TableSoft tr td{
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center
+	padding: 2px;
+	
+}
+
+#TableSoft tr td{
+	border: 1px solid orange;
+	border-collapse: collapse;
+	text-align: center;
+}
 /* Footer */
 
 footer{
 	border-radius: 25px;
-	border: 2px solid lime;
+	border: 2px solid red;
 	background: url('images/footer.jpg');
 	padding-top: 2px;
 	padding-bottom: 2px;
@@ -137,6 +145,17 @@ footer{
 	width: 100%;
 	height: 100%;
     text-align: right;
+}
+
+/* Banniere Footer */
+#banniere-footer{
+	background-color: black;
+	border-radius: 20px;
+	border: 2px solid red;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
 }
 
 #banniere-footer, #banniere-footer tr, #banniere-footer tr td, #banniere-footer tr td a{
