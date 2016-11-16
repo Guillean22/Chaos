@@ -31,7 +31,6 @@ header{
 }
 
 /*Menu Horizontal*/
-
 #menuhorizontal{
 	background-color: black;
 	border-radius: 20px;
@@ -66,53 +65,7 @@ padding: 0 0.5em; /* Pour espacer les boutons entre eux */
 }
 
 
-/*Body*/
-#menu1 li{
-	color: orange;
-}
-
-.test p,.presentation p,#menu1,.yellow{	/*classe du div contenant les p testant celle-ci*/
-	color: orange;
-}
-
-.yellow{
-	display: inline;
-}
-
-.test,.liste,.presentation{
-	border-radius: 30px;
-	border: 2px solid #FFFFFF;
-	background-color: #596a72;
-	padding: 10px;
-}
-
-.content{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-}
-
-#menu1{
-	text-align: center;
-	font-size: 24px;
-}
-
-ol li{
-	text-align: center;
-	font-size: 16px;
-	margin: auto+5px;
-	list-style: none;
-}
-
-.presentation p{
-	font-size: 18px;
-}
-
-.test p{
-	text-align: justify;
-}
-
+/* Body */
 .tabulation {
 text-indent: 20px;
 }
@@ -124,16 +77,27 @@ text-indent: 20px;
 	display: flex;
 	align-items: center
 	padding: 2px;
-	
-}
-
-#TableSoft tr td{
 	border: 1px solid orange;
 	border-collapse: collapse;
 	text-align: center;
+	
 }
-/* Footer */
 
+#TableSoft tr td a:link, #TableSoft tr td a:visited, #TableSoft tr td a:hover, #TableSoft tr td a:active{
+	color: red;
+}
+
+/*
+#TableSoft tr td a:visited{
+	color: yellow;
+}
+*/
+
+#TableSoft tr td a:hover, #TableSoft tr td a:active{
+	text-decoration: none;
+}
+
+/* Footer */
 footer{
 	border-radius: 25px;
 	border: 2px solid red;
@@ -147,7 +111,6 @@ footer{
     text-align: right;
 }
 
-/* Banniere Footer */
 #banniere-footer{
 	background-color: black;
 	border-radius: 20px;
