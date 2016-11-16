@@ -1,0 +1,158 @@
+body{
+	background: url('images/content-background.png') repeat-x bottom;
+	color: white;
+	text-align: center;
+	background-color: #1E1E1E;
+	font-family: "Arial Black", Arial, Verdana, sans-serif;
+}
+
+/*Header*/
+header{
+	border-radius: 25px;
+	border: 2px solid lime;
+	background: url('images/header-banner.jpg');
+	width: 100%;
+	height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banniere-header{
+	color: white;
+	background-color: black;
+	border-radius: 20px;
+	border: 2px solid lime;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 15px;
+}
+
+/*Menu Horizontal*/
+
+#menuhorizontal, #banniere-footer{
+	background-color: black;
+	border-radius: 20px;
+	border: 2px solid lime;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+/*
+	color: white;
+	text-decoration: none;
+	background-color: black;
+	border-radius: 20px;
+	border: 2px solid lime;
+*/
+
+/* Je sélectionne les <li> du menu horizontal */
+#menuhorizontal tr {
+display: inline;
+padding: 0 0.5em; /* Pour espacer les boutons entre eux */
+}
+
+#menuhorizontal a{
+	display: inline;
+	padding: 0;
+	text-decoration: none;
+}
+
+#menuhorizontal tr td a:link, #menuhorizontal tr td a:visited, #menuhorizontal tr td a:hover, #menuhorizontal tr td a:active{
+	color: white;
+}
+
+#menuhorizontal tr td a:hover, #menuhorizontal tr td a:active{
+  text-decoration: none;
+}
+
+#menuhor1, #menuhor2{
+	padding: 2px;
+	display: default;
+}
+
+/*Body*/
+
+#menu1 li{
+	color: white;
+}
+
+.test p,.presentation p,#menu1,.yellow{	/*classe du div contenant les p testant celle-ci*/
+	color: yellow;
+}
+
+.yellow{
+	display: inline;
+}
+
+.test,.liste,.presentation{
+	border-radius: 30px;
+	border: 2px solid #FFFFFF;
+	background-color: #596a72;
+	padding: 10px;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+#test2 { /*Id test2*/
+	color: red;
+	background-color: black;
+}
+
+#menu1{
+	text-align: center;
+	font-size: 24px;
+}
+
+ol li{
+	text-align: center;
+	font-size: 16px;
+	margin: auto+5px;
+	list-style: none;
+}
+
+.presentation p{
+	font-size: 18px;
+}
+
+.test p{
+	text-align: justify;
+}
+
+.tabulation {
+text-indent: 20px;
+}
+/* Footer */
+
+footer{
+	border-radius: 25px;
+	border: 2px solid lime;
+	background: url('images/footer.jpg');
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	width: 100%;
+	height: 100%;
+    text-align: right;
+}
+
+#banniere-footer, #banniere-footer tr, #banniere-footer tr td, #banniere-footer tr td a{
+	text-align: right;
+}
+
+#banniere-footer tr td a:link, #banniere-footer tr td a:visited, #banniere-footer tr td a:hover, #banniere-footer tr td a:active{
+	color: white;
+}
+
+#banniere-footer tr td a:hover, #banniere-footer tr td a:active{
+	text-decoration: none;
+}
