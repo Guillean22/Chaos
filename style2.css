@@ -1,5 +1,6 @@
 body{
-	background: url('images/content-background.png') repeat-x bottom;
+	background: url('images/content-background.png');
+	background-attachment: fixed;
 	color: white;
 	text-align: center;
 	background-color: #1E1E1E;
