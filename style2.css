@@ -19,6 +19,7 @@ header{
     align-items: center;
 }
 
+/*
 #banniere-header{
 	color: white;
 	background-color: black;
@@ -29,6 +30,7 @@ header{
 	padding-left: 2px;
 	padding-right: 15px;
 }
+*/
 
 /*Menu Horizontal*/
 
@@ -41,14 +43,6 @@ header{
 	padding-left: 2px;
 	padding-right: 2px;
 }
-
-/*
-	color: white;
-	text-decoration: none;
-	background-color: black;
-	border-radius: 20px;
-	border: 2px solid lime;
-*/
 
 /* Je sélectionne les <li> du menu horizontal */
 #menuhorizontal tr {
