@@ -2,6 +2,7 @@ body{
 	background: url('images/content-background.png');
 	background-attachment: fixed;
 	color: orange;
+	align-items: center;
 	text-align: center;
 	background-color: #1E1E1E;
 	font-family: "Arial Black", Arial, Verdana, sans-serif;
@@ -70,8 +71,16 @@ padding: 0 0.5em; /* Pour espacer les boutons entre eux */
 text-indent: 20px;
 }
 
+.centered{
+	align-items: center;
+}
+
 /* Logithèque */
-#TableSoft, #TableSoft tr, #TableSoft tr td{
+#TableSoft{
+	width: 80%;
+}
+
+#TableSoft tr, #TableSoft tr td{
 	background-color: black;
 	color: white;
 	display: flex;
@@ -115,10 +124,7 @@ footer{
 	background-color: black;
 	border-radius: 20px;
 	border: 2px solid red;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	padding-left: 2px;
-	padding-right: 2px;
+	padding: 2px;
 }
 
 #banniere-footer, #banniere-footer tr, #banniere-footer tr td, #banniere-footer tr td a{

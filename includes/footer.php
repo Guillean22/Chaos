@@ -1,6 +1,4 @@
 	<footer>
-		<div id='banniere-footer'>
-			<p></p>
-		</div>
+			<p id='banniere-footer'> Mentions Légales </p>
 	</footer>
 </html>

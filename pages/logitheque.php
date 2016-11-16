@@ -1,13 +1,14 @@
 <?php require '../includes/head.php'; ?>
 	<body>
 		<?php require '../includes/header.php'; ?>
-		<div>
+		<div class='centered'>
+			<p><br /></p>
 			<table id='TableSoft'>
 				<tr>
-					<td>Logiciel</td>
-					<td>OS</td>
-					<td>Lien</td>
-					<td>Date</td>
+					<th>Logiciel</th>
+					<th>OS</th>
+					<th>Lien</th>
+					<th>Date</th>
 				</tr>
 				<tr>
 					<td>Sublime Text 3</td>
@@ -28,6 +29,7 @@
 					<td></td>
 				</tr>
 			</table>
+			<p><br /></p>
 		</div>
 	</body>
 	<?php require '../includes/footer.php'; ?>
