@@ -1,4 +1,4 @@
 		<header>
-			<a href='../index.php'>Accueil</a>
-			<a href='../pages/equipe.php'>L'équipe</a>
+			<a href='/Chaos/index.php'>Accueil</a>
+			<a href='/Chaos/pages/equipe.php'>L'équipe</a>
 		</header>
