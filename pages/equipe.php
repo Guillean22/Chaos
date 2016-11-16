@@ -1,6 +1,6 @@
-<?php require '/Projets/Chaos/includes/head.php'; ?>
+<?php require '../includes/head.php'; ?>
 	<body>
-		<?php require '/Projets/Chaos/includes/header.php'; ?>
+		<?php require '../includes/header.php'; ?>
 		<div>
 			<h1><u>LA TEAM CHAOS</u></h1>
 			<h2><br />Mothinos</h2>
@@ -15,4 +15,4 @@
 			<p>Jean-Rodrigue Stella</p>
 		</div>
 	</body>
-	<?php require '/Projets/Chaos/includes/footer.php'; ?>
+	<?php require '../includes/footer.php'; ?>
