@@ -109,21 +109,35 @@ text-indent: 20px;
 }
 
 /*masterclass.php*/
-#ludovic
+#masterclass p
+{
+	text-align: justify;
+}
+
+.presentation
+{
+	text-align: right;
+}
+
+ .photopresentation
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+#ludovicarnold
 {
 	color: #60CCF5;
 }
 
-img title"matrice"
-{
-	align-content: right;
-}
 
 #masterclass ul
 {
-	color: red;
 	list-style-type: none;
 }
+/*après c'est plus marsterclass*/
+
 
 #TableSoft tr td a:visited{
 	color: yellow;

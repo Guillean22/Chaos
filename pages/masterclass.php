@@ -4,20 +4,20 @@
 		<div id="masterclass">
 			<h1>Master Class et rencontres</h1>
 				<ul>
-					<a href="#ludovic"><li>Ludovic Arnold</li></a>
-					<a href="#Marine"><li>Marine Dautrème</li></a>
-<div id="ludovic">
-<a href="https://twitter.com/NkL4"><img src="https://pbs.twimg.com/profile_images/770207539296436224/p6s80Pzh_400x400.jpg"></a>
-		<img title="Matrice" src="http://www.la-matrice.org/wp-content/uploads/2013/05/logo-icononly.png">
+					<a href="#ludovicarnold"><li>Ludovic Arnold</li></a>
+					<a href="#marinedautreme"><li>Marine Dautrème</li></a>
+<div id="ludovicarnold">
+	<a href="https://twitter.com/NkL4"><img src="https://pbs.twimg.com/profile_images/770207539296436224/p6s80Pzh_400x400.jpg" alt="ludovicarnold" class="photopresentation"></a>
+		<img title="Matrice" src="http://www.la-matrice.org/wp-content/uploads/2013/05/logo-icononly.png" alt="logo_matrice" title="matrice">
 			<article>
-				<ul>
+				<ul class="presentation">
 					<li>Ludovic Arnold</li>
 					<li>fonction: Fondateur/bienfaiteur</li>
 					<li>Organisme:
 						<ul>
 					 		<li>La:Matrice</li>
 					 		<li>Kreizenn Dafar</li>
-					 	</ul>
+						</ul>
 					 </li>
 					 <li>rencontre du 4 Novembre 2016</li>
 				</ul>
@@ -28,29 +28,31 @@
 							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<h2>Rensegnez-vous!</h2>
+						<h2>Renseignez-vous!</h2>
 							<p>DATALOVE <3</p>
-							<P>Meat Space</P>
+							<P><a href="https://en.wikipedia.org/wiki/Real_life">Meat Space</a></P>
 							<p>telecomix</p>
-							<p>Benjamin Bayar: <a href="https://www.youtube.com/watch?v=HqkcCC8121Q">minitel 2.0</a></p>
+							<p>Benjamin Bayar: <a href="https://www.youtube.com/watch?v=AoRGoQ76PK8">minitel 2.0</a></p>
 							<p>Fidh</p>
 							<p>Fabrice Epelboin</p>
 							<p>LeanStartup</p>
 							<p>BMC</p>
 							<p>la quadrature du net</p>
 							<p>méthode agile</p>
+							<p>pas sage en seine</p>
 				</ul>
 		</article>
 	</br>
-	<div id="Marine">
-<a href="https://twitter.com/marinedautreme"><img src="https://pbs.twimg.com/profile_images/798157293166743552/ineIFTWy_400x400.jpg"></a>
-		<ul>
+	</div>
+	<div id="marinedautreme">
+<a href="https://twitter.com/marinedautreme"><img src="https://pbs.twimg.com/profile_images/798157293166743552/ineIFTWy_400x400.jpg" alt="marinedautreme" class="photopresentation"></a>
+		<ul class="presentation">
 			<li>Marine Dautrème</li>
 			<li>fonction: relation avec des employeurs</li>
 			<li>Organisme:
 				<ul>
-			 		<a href="http://www.agissonspourlemploi.fr/"><li>Fondation agissons pour l'emploi</li></a>
-			 		<a href="http://www.fondationface.org/"><li>Fondation agissons contre exclusion</li></a>
+			 		<li><a href="http://www.agissonspourlemploi.fr/">Fondation agissons pour l'emploi</a></li>
+			 		<li><a href="http://www.fondationface.org/">Fondation agissons contre exclusion</a></li>
 			 	</ul>
 			 </li>
 			 <li>rencontre du 10 Novembre 2016</li>
@@ -67,9 +69,5 @@
 	</ul>
 </div>
 
-
-
-
-		</div>
-	</body>
+</body>
 	<?php require '../includes/footer.php'; ?>
