@@ -96,6 +96,18 @@ text-indent: 20px;
 	color: red;
 }
 
+/*masterclass.php*/
+#ludovic
+{
+	color: orange;
+}
+
+#masterclass ul
+{
+	color: red;
+	list-style-type: none;
+}
+
 /*
 #TableSoft tr td a:visited{
 	color: yellow;
