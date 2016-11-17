@@ -28,6 +28,8 @@
 					<td width='25%'><a href='#'>Link here</a></td>
 					<td width='25%'>17/11/2016</td>
 				</tr>
+				<?php 
+				?>
 			</table>
 			<p><br /></p>
 		</div>
