@@ -6,9 +6,13 @@
 		<div>
             <h1>Tutoriaux</h1>
 		</div>
-        <div class=list>
-            <h1>Les tutoriaux logiciels </h1> 
+        <div class="logiciels" 
+             <h1>Les tutoriaux logiciels </h1>
+        </div> 
+            <div class="languages"
             <h1>Les tutoriaux sur les languages</h1>
+        </div>
+        <div class="Autre"
             <h1>Autres</h1>
         </div>
         
