@@ -5,28 +5,28 @@
 			<p><br /></p>
 			<table id='TableSoft'>
 				<tr>
-					<th>Logiciel</th>
-					<th>OS</th>
-					<th>Lien</th>
-					<th>Date</th>
+					<th width='25%'>Logiciel</th>
+					<th width='25%'>OS</th>
+					<th width='25%'>Lien</th>
+					<th width='25%'>Date</th>
 				</tr>
 				<tr>
-					<td>Sublime Text 3</td>
-					<td>Windows/Linux</td>
-					<td><a href='https://www.sublimetext.com/3'>Link here</a></td>
-					<td>16/11/2016</td>
+					<td width='25%'>Sublime Text 3</td>
+					<td width='25%'>Windows/Linux</td>
+					<td width='25%'><a href='https://www.sublimetext.com/3'>Link here</a></td>
+					<td width='25%'>16/11/2016</td>
 				</tr>
 				<tr>
-					<td>KvIRC</td>
-					<td>Windows/Linux</td>
-					<td><a href='#'>Link here</a></td>
-					<td>17/11/2016</td>
+					<td width='25%'>KvIRC</td>
+					<td width='25%'>Windows/Linux</td>
+					<td width='25%'><a href='#'>Link here</a></td>
+					<td width='25%'>17/11/2016</td>
 				</tr>
 				<tr>
-					<td>Andaris Script</td>
-					<td>Windows/Linux</td>
-					<td><a href='#'>Link here</a></td>
-					<td>17/11/2016</td>
+					<td width='25%'>Andaris Script</td>
+					<td width='25%'>Windows/Linux</td>
+					<td width='25%'><a href='#'>Link here</a></td>
+					<td width='25%'>17/11/2016</td>
 				</tr>
 			</table>
 			<p><br /></p>

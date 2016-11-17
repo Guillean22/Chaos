@@ -83,18 +83,21 @@ text-indent: 20px;
 	text-align: center;
 }
 
-#TableSoft tr, #TableSoft tr th, #TableSoft tr td{
+#TableSoft tr{
 	background-color: black;
 	color: white;
 	display: flex;
-	align-items: center
+	align-items: center;
+	border-collapse: collapse;	
+}
+
+#TableSoft tr th, #TableSoft tr td{
 	padding-left: 2px;
 	padding-right: 2px;
 	border: 1px solid orange;
 	border-collapse: collapse;
 	text-align: center;
 	font-size: 26px;
-	
 }
 
 #TableSoft tr td{
