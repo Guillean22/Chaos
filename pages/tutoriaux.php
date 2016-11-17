@@ -1,4 +1,6 @@
 <?php require '../includes/head.php'; ?>
+<?php require '../tutoriaux.css'; ?>
+<link rel="stylesheet" href="/Projets/Chaos/tutoriaux.css">
 	<body>
 		<?php require '../includes/header.php'; ?>
 		<div>
