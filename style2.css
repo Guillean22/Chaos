@@ -73,34 +73,41 @@ text-indent: 20px;
 
 .centered{
 	align-items: center;
+	text-align: center;
 }
 
 /* Logithèque */
 #TableSoft{
 	width: 80%;
+	align-items: center;
+	text-align: center;
 }
 
-#TableSoft tr, #TableSoft tr td{
+#TableSoft tr, #TableSoft tr th, #TableSoft tr td{
 	background-color: black;
 	color: white;
 	display: flex;
 	align-items: center
-	padding: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
 	border: 1px solid orange;
 	border-collapse: collapse;
 	text-align: center;
+	font-size: 26px;
 	
+}
+
+#TableSoft tr td{
+	font-size: 14px;
 }
 
 #TableSoft tr td a:link, #TableSoft tr td a:visited, #TableSoft tr td a:hover, #TableSoft tr td a:active{
 	color: red;
 }
 
-/*
 #TableSoft tr td a:visited{
 	color: yellow;
 }
-*/
 
 #TableSoft tr td a:hover, #TableSoft tr td a:active{
 	text-decoration: none;
