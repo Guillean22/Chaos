@@ -24,7 +24,7 @@ header{
 	color: orange;
 	background-color: black;
 	border-radius: 20px;
-	border: 2px solid red;
+	border: 1px solid red;
 	padding-top: 1px;
 	padding-bottom: 1px;
 	padding-left: 2px;
@@ -35,7 +35,7 @@ header{
 #menuhorizontal{
 	background-color: black;
 	border-radius: 20px;
-	border: 2px solid red;
+	border: 1px solid red;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-left: 2px;
@@ -144,13 +144,13 @@ footer{
 	padding-right: 2px;
 	width: 100%;
 	height: 100%;
-    text-align: right;
+    align-items: right;
 }
 
 #banniere-footer{
 	background-color: black;
-	border-radius: 20px;
-	border: 2px solid red;
+	border-radius: 10px;
+	border: 1px solid red;
 	padding: 2px;
 }
 
