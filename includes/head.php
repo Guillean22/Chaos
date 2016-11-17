@@ -3,9 +3,9 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="/Projets/Chaos/style2.css">	<!-- création du lien vers la page css -->
 		<?php
-		/*/
-			$servername= "root";
-			$username= "";
+		//*/
+			$servername= "127.0.0.1";
+			$username= "root";
 			$password="";
 
 			try{
