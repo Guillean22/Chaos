@@ -14,6 +14,9 @@
 						<a href='/Projets/Chaos/pages/tutoriaux.php'>Tutoriaux</a>
 					</td>
 					<td>
+						<a href='/Projets/Chaos/pages/masterclass.php'>MasterClass</a>
+					</td>
+					<td>
 						<a href='/Projets/Chaos/pages/equipe.php'>L'équipe</a>
 					</td>
 				</tr>
