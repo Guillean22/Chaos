@@ -121,7 +121,6 @@ img title"matrice"
 
 #masterclass ul
 {
-	color: red;
 	list-style-type: none;
 }
 
@@ -132,6 +131,37 @@ img title"matrice"
 #TableSoft tr td a:hover, #TableSoft tr td a:active{
 	text-decoration: none;
 }
+
+/*masterclass.php*/
+#ludovicarnold p, #marinedautreme p
+{
+	text-align: justify;
+}
+
+#ludovicarnold .presentation, #marinedautreme .presentation
+{
+	text-align: right;
+	list-style-type: none;
+}
+
+.photopresentation
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+#ludovicarnold
+{
+	color: #60CCF5;
+}
+
+
+#masterclass ul
+{
+	list-style-type: none;
+}
+/*après c'est plus marsterclass*/
 
 /* Footer */
 footer{
